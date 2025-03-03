@@ -1,0 +1,34 @@
+body {
+    background-color: #EFEA95;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 21px;
+    font-weight: normal;
+    line-height: 1.6;
+}
+
+.links {
+    margin-top: 30px;
+}
+
+.links a {
+    display: block;
+    font-size: 18px;
+    color: blue;
+    text-decoration: underline;
+    margin: 10px 0;
+}
