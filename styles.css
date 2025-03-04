@@ -15,27 +15,33 @@ body {
     font-family: Arial, sans-serif;
     text-align: left;
     padding: 20px;
+    margin: 0; /* Remove default margin */
 }
 
 .container {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 20px 40px; /* Reduce top and left margin */
+    position: relative; /* Allows positioning of child elements */
 }
 
+/* Style for h1 */
 h1 {
     font-size: 64px;
     margin-bottom: 20px;
-    font-family: 'PhaseFGX', sans-serif; /* Apply Phase-FGX to h1 */
-    color: #4a57ce; /* Set h1 color */
+    font-family: 'PhaseFGX', sans-serif;
+    color: #4a57ce;
+    position: relative; /* Ensures alignment with image */
 }
 
+/* Style for h2 */
 h2 {
     font-size: 21px;
     font-weight: normal;
     line-height: 1.6;
-    font-family: 'PhaseCGX', sans-serif; /* Apply Phase-CGX to h2 */
+    font-family: 'PhaseCGX', sans-serif;
 }
 
+/* Style for links */
 .links {
     margin-top: 30px;
 }
@@ -46,5 +52,14 @@ h2 {
     color: blue;
     text-decoration: underline;
     margin: 10px 0;
-    font-family: 'PhaseFGX', sans-serif; /* Apply Phase-FGX to links */
+    font-family: 'PhaseFGX', sans-serif;
+}
+
+/* Stamp image styling */
+.stamp {
+    position: absolute;
+    top: 0;
+    right: 20px; /* Adjust distance from right edge */
+    width: 100px; /* Adjust size as needed */
+    height: auto;
 }
