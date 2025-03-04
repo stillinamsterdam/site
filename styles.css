@@ -30,7 +30,6 @@ h1 {
     margin-bottom: 20px;
     font-family: 'PhaseFGX', sans-serif;
     color: #4a57ce;
-    position: relative; /* Ensures alignment with image */
 }
 
 /* Style for h2 */
@@ -57,9 +56,9 @@ h2 {
 
 /* Stamp image styling */
 .stamp {
-    position: absolute;
-    top: 0;
-    right: 20px; /* Adjust distance from right edge */
-    width: 100px; /* Adjust size as needed */
-    height: auto;
+    position: fixed; /* Keeps it in the top-right even when scrolling */
+    top: 20px; /* Adjusted top spacing */
+    right: 20px; /* Adjusted right spacing */
+    width: 25%; /* Reduce to one-fourth of the original size */
+    height: auto; /* Maintain aspect ratio */
 }
