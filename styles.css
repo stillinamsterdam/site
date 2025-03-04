@@ -23,17 +23,14 @@ body {
     margin: 20px 10px; /* Move text more to the left */
     padding-left: 10px; /* Extra left padding for alignment */
     position: relative; /* Keeps positioning correct */
-    display: flex; /* Align h1 and stamp horizontally */
-    align-items: center; /* Align them vertically */
-    justify-content: space-between; /* Pushes h1 left and stamp right */
 }
 
 /* Style for h1 */
 h1 {
     font-size: 64px;
+    margin-bottom: 20px;
     font-family: 'PhaseFGX', sans-serif;
     color: #4a57ce;
-    margin: 0; /* Remove extra margin */
 }
 
 /* Style for h2 */
@@ -60,6 +57,9 @@ h2 {
 
 /* Stamp image styling */
 .stamp {
-    width: 100px; /* Keep small size */
+    position: fixed; /* Keeps it in the top-right even when scrolling */
+    top: 20px; /* Adjusted top spacing */
+    right: 20px; /* Adjusted right spacing */
+    width: 100px; /* Set to a fixed small size */
     height: auto; /* Maintain aspect ratio */
 }
