@@ -19,9 +19,10 @@ body {
 }
 
 .container {
-    max-width: 800px;
-    margin: 20px 40px; /* Reduce top and left margin */
-    position: relative; /* Allows positioning of child elements */
+    max-width: 800px; /* Keeps content from being too wide */
+    margin: 20px 10px; /* Move text more to the left */
+    padding-left: 10px; /* Extra left padding for alignment */
+    position: relative; /* Keeps positioning correct */
 }
 
 /* Style for h1 */
@@ -59,6 +60,6 @@ h2 {
     position: fixed; /* Keeps it in the top-right even when scrolling */
     top: 20px; /* Adjusted top spacing */
     right: 20px; /* Adjusted right spacing */
-    width: 25%; /* Reduce to one-fourth of the original size */
+    width: 100px; /* Set to a fixed small size */
     height: auto; /* Maintain aspect ratio */
 }
