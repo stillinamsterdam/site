@@ -1,7 +1,13 @@
+/* Define custom font */
+@font-face {
+    font-family: 'PhaseCGX';
+    src: url('/stillinamsterdam/site/Phase-CGX_19-20-81.ttf') format('truetype');
+}
+
 body {
     background-color: #EFEA95;
     font-family: Arial, sans-serif;
-    text-align: left-align;
+    text-align: left;
     padding: 20px;
 }
 
@@ -13,12 +19,14 @@ body {
 h1 {
     font-size: 64px;
     margin-bottom: 20px;
+    font-family: 'PhaseCGX', sans-serif; /* Apply custom font to h1 */
 }
 
 h2 {
     font-size: 21px;
     font-weight: normal;
     line-height: 1.6;
+    font-family: 'PhaseCGX', sans-serif; /* Apply custom font to h2 */
 }
 
 .links {
