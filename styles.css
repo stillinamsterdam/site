@@ -1,7 +1,7 @@
 /* Define custom font */
 @font-face {
     font-family: 'PhaseCGX';
-    src: url('/stillinamsterdam/site/Phase-CGX_19-20-81.ttf') format('truetype');
+    src: url('https://stillinamsterdam.github.io/stillinamsterdam/site/Phase-CGX_19-20-81.ttf'') format('truetype');
 }
 
 body {
