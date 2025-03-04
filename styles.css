@@ -1,4 +1,10 @@
-/* Define custom font */
+/* Define custom font for h1 and links */
+@font-face {
+    font-family: 'PhaseFGX';
+    src: url('https://raw.githubusercontent.com/stillinamsterdam/site/main/Phase-FGX_29-86-4.ttf') format('truetype');
+}
+
+/* Define custom font for h2 */
 @font-face {
     font-family: 'PhaseCGX';
     src: url('https://raw.githubusercontent.com/stillinamsterdam/site/main/Phase-CGX_19-20-81.ttf') format('truetype');
@@ -19,14 +25,15 @@ body {
 h1 {
     font-size: 64px;
     margin-bottom: 20px;
-    font-family: 'PhaseCGX', sans-serif; /* Apply custom font to h1 */
+    font-family: 'PhaseFGX', sans-serif; /* Apply Phase-FGX to h1 */
+    color: #4a57ce; /* Set h1 color */
 }
 
 h2 {
     font-size: 21px;
     font-weight: normal;
     line-height: 1.6;
-    font-family: 'PhaseCGX', sans-serif; /* Apply custom font to h2 */
+    font-family: 'PhaseCGX', sans-serif; /* Apply Phase-CGX to h2 */
 }
 
 .links {
@@ -39,4 +46,5 @@ h2 {
     color: blue;
     text-decoration: underline;
     margin: 10px 0;
+    font-family: 'PhaseFGX', sans-serif; /* Apply Phase-FGX to links */
 }
