@@ -14,7 +14,7 @@ body {
     background-color: #EFEA95;
     font-family: Arial, sans-serif;
     text-align: left;
-    padding: 80px 20px 20px; /* Increased top padding to 60px */
+    padding: 60px 20px 20px; /* Increased top padding to 60px */
     margin: 0; /* Remove default margin */
     padding-bottom: 50px; /* Add space at the bottom of the page */
 }
