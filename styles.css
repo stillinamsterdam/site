@@ -62,4 +62,11 @@ h2 {
     right: 20px; /* Adjusted right spacing */
     width: 100px; /* Set to a fixed small size */
     height: auto; /* Maintain aspect ratio */
+
+    /* Logo image styling */
+.logo {
+    height: 1.2em; /* Adjust size to match text */
+    margin-right: 10px; /* Space between logo and text */
+    vertical-align: middle;
+    
 }
