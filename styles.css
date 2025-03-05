@@ -21,7 +21,6 @@ body {
 
 .container {
     max-width: 800px; /* Keeps content from being too wide */
-    margin: 20px auto; /* Center content */
     padding-left: 10px; /* Extra left padding for alignment */
     position: relative; /* Keeps positioning correct */
 }
