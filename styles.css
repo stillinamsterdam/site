@@ -21,7 +21,8 @@ body {
 
 .container {
     max-width: 800px; /* Keeps content from being too wide */
-    padding-left: 10px; /* Extra left padding for alignment */
+    margin: 20px 0 20px 0; /* Remove auto centering and keep it aligned to the left */
+    padding-left: 20px; /* Increase left padding for alignment */
     position: relative; /* Keeps positioning correct */
 }
 
