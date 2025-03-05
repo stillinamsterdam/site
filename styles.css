@@ -55,19 +55,17 @@ h2 {
     font-family: 'PhaseFGX', sans-serif;
 }
 
-/* Stamp image styling */
-.stamp {
-    position: fixed; /* Keeps it in the top-right even when scrolling */
-    top: 20px; /* Adjusted top spacing */
-    right: 20px; /* Adjusted right spacing */
-    width: 100px; /* Set to a fixed small size */
-    height: auto; /* Maintain aspect ratio */
-
-    /* Logo image styling */
 .logo {
-    top: 20px; /* Adjusted top spacing */
-    height: 0.6em; /* Adjust size to match text */
+    height: 0.6em; /* Reduced size to half */
     margin-right: 10px; /* Space between logo and text */
     vertical-align: middle;
+    padding-top: 20px; /* Same upper padding as stamp */
+}
+
+.stamp {
+    display: block;
+    margin-bottom: 20px; /* Adjust spacing between stamp and headline */
+    max-width: 100px; /* Adjust size as needed */
+    padding-top: 20px; /* Ensure consistent padding */
     
 }
