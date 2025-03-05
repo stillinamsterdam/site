@@ -65,6 +65,7 @@ h2 {
 
     /* Logo image styling */
 .logo {
+    top: 20px; /* Adjusted top spacing */
     height: 0.6em; /* Adjust size to match text */
     margin-right: 10px; /* Space between logo and text */
     vertical-align: middle;
