@@ -14,7 +14,7 @@ body {
     background-color: #EFEA95;
     font-family: Arial, sans-serif;
     text-align: left;
-    padding: 20px;
+    padding: 60px 20px 20px; /* Increased top padding to 60px */
     margin: 0; /* Remove default margin */
     padding-bottom: 50px; /* Add space at the bottom of the page */
 }
@@ -69,7 +69,7 @@ h2 {
 
 .stamp {
     position: fixed;
-    top: 20px;
+    top: 20px; /* Keeps stamp in top right corner */
     right: 20px;
     width: 100px; /* Keep stamp in top right corner */
     height: auto;
