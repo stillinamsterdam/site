@@ -39,6 +39,9 @@ h2 {
     font-weight: normal;
     line-height: 1.6;
     font-family: 'PhaseCGX', sans-serif;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 /* Style for links */
@@ -56,16 +59,15 @@ h2 {
 }
 
 .logo {
-    height: 0.6em; /* Reduced size to half */
+    height: 50px; /* Half the height of the stamp */
     margin-right: 10px; /* Space between logo and text */
     vertical-align: middle;
-    padding-top: 20px; /* Same upper padding as stamp */
 }
 
 .stamp {
-    display: block;
-    margin-bottom: 20px; /* Adjust spacing between stamp and headline */
-    max-width: 100px; /* Adjust size as needed */
-    padding-top: 20px; /* Ensure consistent padding */
-    
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 100px; /* Keep stamp in top right corner */
+    height: auto;
 }
