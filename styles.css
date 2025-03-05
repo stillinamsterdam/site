@@ -16,11 +16,12 @@ body {
     text-align: left;
     padding: 20px;
     margin: 0; /* Remove default margin */
+    padding-bottom: 50px; /* Add space at the bottom of the page */
 }
 
 .container {
     max-width: 800px; /* Keeps content from being too wide */
-    margin: 20px 10px; /* Move text more to the left */
+    margin: 20px auto; /* Center content */
     padding-left: 10px; /* Extra left padding for alignment */
     position: relative; /* Keeps positioning correct */
 }
@@ -47,6 +48,7 @@ h2 {
 /* Style for links */
 .links {
     margin-top: 30px;
+    padding-bottom: 50px; /* Add extra space below links */
 }
 
 .links a {
@@ -59,13 +61,14 @@ h2 {
 }
 
 .logo {
-    height: 50px; /* Half the height of the stamp */
+    height: 50px; /* Adjust logo height to half of stamp */
     margin-right: 10px; /* Space between logo and text */
     vertical-align: middle;
+    display: inline-block; /* Ensure inline positioning */
 }
 
 .stamp {
-    position: absolute;
+    position: fixed;
     top: 20px;
     right: 20px;
     width: 100px; /* Keep stamp in top right corner */
