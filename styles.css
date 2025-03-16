@@ -54,8 +54,7 @@ h2 {
 .links a {
     display: block;
     font-size: 18px;
-    color: blue;
-    text-decoration: underline;
+    color: #4a57ce;
     margin: 10px 0;
     font-family: 'PhaseFGX', sans-serif;
 }
