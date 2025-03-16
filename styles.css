@@ -60,6 +60,10 @@ h2 {
     font-family: 'PhaseFGX', sans-serif;
 }
 
+a:hover {
+    color: white; /* Changes text to white when hovered */
+}
+
 .logo {
     height: 50px; /* Adjust logo height to half of stamp */
     margin-right: 10px; /* Space between logo and text */
