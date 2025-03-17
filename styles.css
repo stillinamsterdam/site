@@ -58,6 +58,13 @@ h3 {
 }
 
 .links a {
+    display: inline; /* Ensures the link is only as wide as the text */
+    text-decoration: none; /* Optional: Removes underline */
+    color: inherit; /* Optional: Keeps default text color */
+}
+
+
+.links a {
     display: block;
     font-size: 18px;
     color: #4a57ce;
