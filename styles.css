@@ -47,8 +47,8 @@ h2 {
 
    h3 {
     font-family: monospace;
-    color: grey;
-    font-size: 18px;
+    color: black;
+    font-size: 16px;
     line-height: 1.6;
     font-weight: 400; /* Adjust this value to make it lighter (100-400) */
 }
