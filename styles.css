@@ -45,10 +45,11 @@ h2 {
     flex-wrap: wrap;
 }
 
-h3 {
-    font-family: Victor mono;
-    color: black;
+   h3 {
+    font-family: monospace;
+    color: grey;
     font-size: 18px;
+    font-weight: 400; /* Adjust this value to make it lighter (100-400) */
 }
 
 /* Style for links */
