@@ -49,6 +49,7 @@ h2 {
     font-family: monospace;
     color: grey;
     font-size: 18px;
+    line-height: 1.6;
     font-weight: 400; /* Adjust this value to make it lighter (100-400) */
 }
 
@@ -93,18 +94,3 @@ a:hover {
     height: auto;
 }
 
-.cursor-trail {
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    background-color: rgba(255, 0, 150, 0.7); /* Pink Glow */
-    border-radius: 50%;
-    pointer-events: none;
-    transform: translate(-50%, -50%);
-    animation: fadeOut 0.5s linear;
-}
-
-@keyframes fadeOut {
-    0% { opacity: 1; transform: scale(1); }
-    100% { opacity: 0; transform: scale(2); }
-}
