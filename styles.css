@@ -45,6 +45,12 @@ h2 {
     flex-wrap: wrap;
 }
 
+h3 {
+    font-family: monospace;
+    color: grey;
+    font-size: 18px;
+}
+
 /* Style for links */
 .links {
     margin-top: 30px;
