@@ -94,3 +94,9 @@ a:hover {
     height: auto;
 }
 
+ul {
+  list-style: none;
+  padding: 0; /* Optional: Removes default padding */
+  margin: 0; /* Optional: Removes default margin */
+}
+
