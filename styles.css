@@ -96,7 +96,11 @@ a:hover {
 
 ul {
   list-style: none;
-  padding: 0; /* Optional: Removes default padding */
-  margin: 0; /* Optional: Removes default margin */
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
 }
 
