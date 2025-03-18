@@ -50,7 +50,7 @@ h2 {
     color: black;
     font-size: 14px;
     line-height: 1.4;
-    font-weight: 400; /* Adjust this value to make it lighter (100-400) */
+    font-weight: 400 !important;
 }
 
 /* Style for links */
