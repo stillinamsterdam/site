@@ -104,3 +104,9 @@ li {
   list-style-type: none;
 }
 
+iframe {
+    display: block; /* Ensures it behaves like a block element */
+    width: 90%; /* Adjust width to match text alignment */
+    max-width: 600px; /* Limit max width to align with content */
+    margin-left: 0; /* Align to the left */
+}
