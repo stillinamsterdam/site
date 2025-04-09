@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SiA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="https://raw.githubusercontent.com/stillinamsterdam/site/main/stamp.png" alt="Stamp" class="stamp">
+       <a href="index.html"><img src="https://raw.githubusercontent.com/stillinamsterdam/site/main/logo.png" alt="Stamp" class="logo"></a>
+        <h1>
+            Welcome to SiA! 
+        </h1>
+          <h3>
+            Within two weeks you will receive your club membership in your email. 
+            <br><br>
+            Now keep an eye out for our monthly invite emails and see you soon!  
+        </h3>
+
+        <div class="links">
+            <a href="index.html">BACK HOME</a>
+            <a href="more-info.html">MORE INFO</a>
+            <a href="membership.html">BECOME A MEMBER</a>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+        </div>
+    </div>
+</body>
+</html>
